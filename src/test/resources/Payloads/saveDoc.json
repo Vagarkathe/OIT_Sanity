@@ -1,0 +1,8 @@
+{
+
+  "datasource": "29B",
+  "dataset": "BYPASS",
+  "label": "Not Specified",
+  "url": "https://portal-int-edh.bigdata.intraorange/edh/#/env/INT/datamanagement/catalog/datasource/29B/dataset/BYPASS/dataLayer/preparedData",
+  "description": "test manal"
+}

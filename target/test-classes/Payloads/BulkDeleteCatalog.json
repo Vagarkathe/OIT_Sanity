@@ -1,0 +1,731 @@
+[{
+      "timestamp": "20221014105253",
+      "env": "INT",
+      "datatype": "sourceData.dataset",
+      "label": "COR_C_ACTOR",
+      "qualifiedname": "int.sourceData.core_france.cor_c_actor@edhuha",
+      "pii": "Y",
+      "sensible": "Y",
+
+
+
+      "sourcedatatype": "OBSIT",
+      "datasourcename": "CORE_FRANCE",
+      "sourcedatasetname": "COR_C_ACTOR",
+
+      "location": "hdfs://EDHUHA/INT/data_lake/CORE_FRANCE/COR_C_ACTOR",
+      "partition": "year=yyyy/month=mm/day=dd",
+      "ingestionmod": "Referential dataSet",
+      "connectortype": "",
+      "fileformat": "CSV",
+      "retention": "-1",
+      "ingestiontype": "BATCH",
+
+      "siddsie": "PAR",
+      "datasource" : "CORE_FRANCE",
+      "dataset":"COR_C_ACTOR",
+      "alimentationMod": "Not Defined"
+    },
+    {
+      "timestamp": "20221014105253",
+      "env": "INT",
+      "datatype": "preparedData.dataset",
+      "label": "COR_C_ACTOR",
+      "qualifiedname": "int.preparedData.core_france.cor_c_actor@edhuha",
+      "pii": "Y",
+      "sensible": "Y",
+
+
+
+      "sourcedatatype": "OBSIT",
+      "datasourcename": "CORE_FRANCE",
+      "sourcedatasetname": "COR_C_ACTOR",
+
+      "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+      "hive_db": "int_prd_core_france",
+      "hive_table": "cor_c_actor",
+      "partition": "year=yyyy/month=mm/day=dd",
+      "ingestionmod": "Referential dataSet",
+      "connectortype": "",
+      "fileformat": "ORC",
+      "retention": "-1",
+      "ingestiontype": "BATCH",
+
+      "siddsie": "PAR",
+      "datasource" : "CORE_FRANCE",
+      "dataset":"COR_C_ACTOR",
+      "alimentationMod": "Not Defined"
+    }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "OWNER_ORGANIZATION",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.owner_organization@edhuha",
+    "pii": "N",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "OWNER_ORGANIZATION",
+    "description": "FR-Owner organization",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(25)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_ACTOR_CD",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_actor_cd@edhuha",
+    "pii": "N",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_ACTOR_CD",
+    "description": "FR-Actor Code  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(8)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_CITY_ID",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_city_id@edhuha",
+    "pii": "N",
+    "sensible": "Y",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_CITY_ID",
+    "description": "FR-City Id  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "INTEGER(9)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_COUNTRY_ISO_3_CODE",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_country_iso_3_code@edhuha",
+    "pii": "Y",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_COUNTRY_ISO_3_CODE",
+    "description": "FR-Country ISO 3 Code  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(3)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_COURTESIES_CD",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_courtesies_cd@edhuha",
+    "pii": "N",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_COURTESIES_CD",
+    "description": "FR-Courtesies Code  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(5)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_ACTOR_FUNCTION_CD",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_actor_function_cd@edhuha",
+    "pii": "N",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_ACTOR_FUNCTION_CD",
+    "description": "FR-Actor Function Code  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(5)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_ACTION_CD",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_action_cd@edhuha",
+    "pii": "N",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_ACTION_CD",
+    "description": "FR-Action Code  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(10)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_SUPPRESSION_TYPE_CD",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_suppression_type_cd@edhuha",
+    "pii": "N",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_SUPPRESSION_TYPE_CD",
+    "description": "FR-Suppression Type Code  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(1)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_ACTOR_NAME",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_actor_name@edhuha",
+    "pii": "Y",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_ACTOR_NAME",
+    "description": "FR-Actor Name  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(25)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_FIRST_NAME",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_first_name@edhuha",
+    "pii": "Y",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_FIRST_NAME",
+    "description": "FR-First Name  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(25)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_PHONE",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_phone@edhuha",
+    "pii": "Y",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_PHONE",
+    "description": "FR-Phone  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(20)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_FAX",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_fax@edhuha",
+    "pii": "Y",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_FAX",
+    "description": "FR-Fax  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(20)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_FT_NUMBER",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_ft_number@edhuha",
+    "pii": "N",
+    "sensible": "Y",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_FT_NUMBER",
+    "description": "FR-FT Number  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(8)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_EMAIL",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_email@edhuha",
+    "pii": "Y",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_EMAIL",
+    "description": "FR-Email  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(100)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_CREATION_DT",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_creation_dt@edhuha",
+    "pii": "N",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_CREATION_DT",
+    "description": "FR-Creation Date  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "TIMESTAMP()",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_LAST_UPDATE_DT",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_last_update_dt@edhuha",
+    "pii": "N",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_LAST_UPDATE_DT",
+    "description": "FR-Last Update Date  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "TIMESTAMP()",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_LAST_ACTION_USER",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_last_action_user@edhuha",
+    "pii": "Y",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_LAST_ACTION_USER",
+    "description": "FR-Last Action User  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(50)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_LOGICAL_SUPPRESSION_DT",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_logical_suppression_dt@edhuha",
+    "pii": "N",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_LOGICAL_SUPPRESSION_DT",
+    "description": "FR-Logical Suppression Date  ",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "TIMESTAMP()",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "E_MOBILE",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.e_mobile@edhuha",
+    "pii": "Y",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "E_MOBILE",
+    "description": "NON APPLICABLE",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(30)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "T_MOBILE",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.t_mobile@edhuha",
+    "pii": "Y",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "T_MOBILE",
+    "description": "FR-Mobile phone",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(15)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+
+  ,{
+    "timestamp": "20221014105253",
+    "env": "INT",
+    "datatype": "preparedData.column",
+    "label": "C_MANAGEMENT_ENTITY",
+    "qualifiedname": "int.preparedData.core_france.cor_c_actor.c_management_entity@edhuha",
+    "pii": "N",
+    "sensible": "N",
+
+
+
+    "sourcedatatype": "OBSIT",
+    "datasourcename": "CORE_FRANCE",
+    "sourcedatasetname": "COR_C_ACTOR",
+    "columnname": "C_MANAGEMENT_ENTITY",
+    "description": "FR-Management Entity",
+    "location": "hdfs://EDHUHA/INT/technical_core/publication/CORE_FRANCE/COR_C_ACTOR",
+    "columnformat": "VARCHAR(500)",
+    "hive_db": "int_prd_core_france",
+    "hive_table": "cor_c_actor",
+    "partition": "year=yyyy/month=mm/day=dd",
+    "ingestionmod": "Referential dataSet",
+    "connectortype": "",
+    "fileformat": "ORC",
+    "retention": "-1",
+    "anonimizedmod": "N",
+    "ingestiontype": "BATCH",
+    "datasource" : "CORE_FRANCE",
+    "dataset":"COR_C_ACTOR"
+
+  }
+]

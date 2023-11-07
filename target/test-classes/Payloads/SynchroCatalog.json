@@ -1,0 +1,28 @@
+{
+      "timestamp": "20221014105253",
+      "env": "INT",
+      "datatype": "sourceData.dataset",
+      "label": "COR_C_ACTOR",
+      "qualifiedname": "int.sourceData.core_france.cor_c_actor@edhuha",
+      "pii": "Y",
+      "sensible": "Y",
+
+
+
+      "sourcedatatype": "OBSIT",
+      "datasourcename": "CORE_FRANCE",
+      "sourcedatasetname": "COR_C_ACTOR",
+
+      "location": "hdfs://EDHUHA/INT/data_lake/CORE_FRANCE/COR_C_ACTOR",
+      "partition": "year=yyyy/month=mm/day=dd",
+      "ingestionmod": "Referential dataSet",
+      "connectortype": "",
+      "fileformat": "CSV",
+      "retention": "-1",
+      "ingestiontype": "BATCH",
+
+      "siddsie": "PAR",
+      "datasource" : "CORE_FRANCE",
+      "dataset":"COR_C_ACTOR",
+      "alimentationMod": "Not Defined"
+    }

@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="12" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="92" time="137.582">
+<testcase classname="Catalog API Sanity" name="Synchro Orange Carto" time="4.919">
+<system-out><![CDATA[Given Synchro Orange Carto API details......................................passed
+Then Hit the API, fetch response and validate the response code as 201......passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Bulk Orange Carto" time="1.324">
+<failure message="expected [200] but found [500]" type="java.lang.AssertionError"><![CDATA[Given Bulk Orange Carto Endpoint............................................passed
+Then Send the API to server and check the response contains status code as 200.failed
+
+StackTrace:
+java.lang.AssertionError: expected [200] but found [500]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1294)
+	at stepDefinitions.BulkOrangeCarto.send_the_api_to_server_and_check_the_response_contains_status_code_as(BulkOrangeCarto.java:60)
+	at ✽.Send the API to server and check the response contains status code as 200(file:///C:/Users/gtcg6683/eclipse-workspace/EDH_APIAutomation/src/test/resources/featureFile/EDHAPI.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Filter API" time="1.36">
+<system-out><![CDATA[Given Search full API endpoints are sent to server..........................passed
+Then Response contains status code 200......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Filter dataset API" time="1.313">
+<system-out><![CDATA[Given Valid endpoints of search dataset 7 API are sent to server............passed
+Then Response contains response code 200....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Datasources API" time="1.241">
+<system-out><![CDATA[Given Valid endpoints of list datasources API are sent to server............passed
+Then Response contains 200..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Datasources By Subdomain API" time="1.247">
+<system-out><![CDATA[Given Endpoints of list data sources by subdomain API are sent to server....passed
+Then Fetch the response and validate response contains 200..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Datasources Simple" time="1.24">
+<system-out><![CDATA[Given Datasources API are sent to server....................................passed
+Then Fetch the response and check the response code as 200..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Datasources By Domain" time="1.26">
+<system-out><![CDATA[Given Datasources By Domain API are sent to server..........................passed
+Then Fetch the response and check the response as 200.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Datasources With Orange Cartographie" time="1.236">
+<system-out><![CDATA[Given Endpoints of List Datasources With Orange Cartographie API are sent to server.passed
+Then Get the response and check the code as 200.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Update Dataset7 API" time="1.189">
+<system-out><![CDATA[Given Endpoints of Update Dataset 7 API are sent to server..................passed
+Then Check the response code as 200.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Synchro Catalog API" time="1.218">
+<system-out><![CDATA[Given Details of Synchro Catalog API are sent to server.....................passed
+Then Check the response code as 201 and fetch the response..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Bulk Delete Catalog API" time="1.51">
+<system-out><![CDATA[Given Endpoints of Bulk Delete Catalog API are sent to server...............passed
+Then Check the response code 204............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Bulk Catalog API" time="1.464">
+<system-out><![CDATA[Given Valid Endpoints of Bulk Catalog API are sent..........................passed
+Then Check the response and validate the code as 201........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Subdomains Simple API" time="1.237">
+<system-out><![CDATA[Given Endpoints of List Subdomains Simple API are sent to server............passed
+Then Fetch the response and validate the code as 200........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Sids API" time="1.304">
+<system-out><![CDATA[Given Hit the List Subdomains Simple API....................................passed
+Then Fetch the response and validate 200 as response code...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Datasets By Sid API" time="1.289">
+<system-out><![CDATA[Given Hit the List Datasets By Sid API with its headers and parameters......passed
+Then Fetch the response and validate 200 as status code.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Datasets API" time="1.257">
+<system-out><![CDATA[Given Hit the List Datasets API with its details............................passed
+Then Fetch the response and validate 200 as the response code...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Export All Catalog API" time="7.444">
+<system-out><![CDATA[Given Send the Export All Catalog API with its details to the server........passed
+Then Validate 200 as the response code and Fetch the response...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Domains Simple API" time="1.525">
+<system-out><![CDATA[Given Send the List Domains Simple API with its details to the server.......passed
+Then Validate 200 as the status code and Fetch the response.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Datasets Simple API" time="1.293">
+<system-out><![CDATA[Given Send the List Datasets Simple API to the server.......................passed
+Then Validate the response code as 200 and Fetch the response...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Remove Perimeter API" time="1.183">
+<system-out><![CDATA[Given Send the Remove Perimeter API to server...............................passed
+Then Validate the response code as 404 and get the response.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Remove Doc API" time="1.18">
+<system-out><![CDATA[Given Send the Remove Doc API to server.....................................passed
+Then Validate the status code as 404 and check the response.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Remove Contact API" time="1.327">
+<system-out><![CDATA[Given Send the Remove Contact API to server.................................passed
+Then Validate status code as 404 and check the response.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="DataLayer Dataset" time="1.265">
+<system-out><![CDATA[Given Datalayer dataset API details.........................................passed
+Then Hit the API, fetch response and validate the response code as OK.......passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Export Sample Catelog" time="1.228">
+<system-out><![CDATA[Given Export Sample catelog Endpoint........................................passed
+Then Send the API to server and check the response contains status as OK....passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Sample Catelog API" time="1.257">
+<system-out><![CDATA[Given Hit sample Catelog API................................................passed
+Then Response contains status code 200 OK...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Columns By Datasource &amp; Dataset API" time="1.247">
+<system-out><![CDATA[Given Valid endpoints of List Columns API are sent to server................passed
+Then Response contains response code 200 OK.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Dataset Reference API" time="1.204">
+<system-out><![CDATA[Given Valid endpoints of list Dataset Reference API are sent to server......passed
+Then Response contains 200 OK...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Docs By Datasource &amp; Dataset API" time="1.217">
+<system-out><![CDATA[Given Valid endpoint of List docs by subdomain API are sent to server.......passed
+Then Fetch the response and validate response contains 200 OK...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Name Datasource Simple" time="1.217">
+<system-out><![CDATA[Given Name Datasources API are sent to server...............................passed
+Then Fetch the response and check the response code as 200 OK...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Perimeters By Datasource" time="1.2">
+<system-out><![CDATA[Given Datasources By Perimeters API are sent to server......................passed
+Then Fetch the response body and check the response as 200 OK...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Export Sample Datasource" time="1.313">
+<system-out><![CDATA[Given Endpoints of export Sample Datasource API are sent to server..........passed
+Then Get the response and check the code as 200 OK..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Docs By Datasource API" time="1.256">
+<system-out><![CDATA[Given Endpoints of list Docs By Datasource are sent to server...............passed
+Then Check the response code as 200 OK......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Datasets By Datasource API" time="1.205">
+<system-out><![CDATA[Given Details of list Datasets By Datasource API are sent to server.........passed
+Then Check the response code as 200 OK and fetch the response...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="List Contacts By Datasource API" time="1.236">
+<system-out><![CDATA[Given Endpoints of list Contacts By Datasource API are sent to server.......passed
+Then Check the response code 200 OK.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Save Perimeter API" time="1.308">
+<system-out><![CDATA[Given Endpoints of Save Perimeter API are sent to server....................passed
+Then Fetch the response and validate the code as 201 OK.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Save Doc API" time="1.323">
+<system-out><![CDATA[Given Hit the Save Doc API with its headers and parameters..................passed
+Then Fetch the response and validate 201 OK as status code..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Save Contact API" time="1.335">
+<system-out><![CDATA[Given Hit the Save Contact API with its details.............................passed
+Then Fetch the response and validate 201 OK as the response code............passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Create Datasource API" time="1.245">
+<system-out><![CDATA[Given Send the Create Datasource API with its details to the server.........passed
+Then Validate 201 OK as the response code and Fetch the response............passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Update Datasource API" time="1.168">
+<system-out><![CDATA[Given Send the Update Datasource API with its details to the server.........passed
+Then Validate 200 OK as the status code and Fetch the response..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Synchro Sample Catelog API" time="1.197">
+<system-out><![CDATA[Given Send the synchro sample catelog API to the server.....................passed
+Then Validate the response code as 201 OK and Fetch the response............passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Bulk Sample Catelog API" time="1.22">
+<system-out><![CDATA[Given Send the bulk sample catelog API to server............................passed
+Then Validate the response code as 201 OK and get the response..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Save Dataset Referance API" time="1.275">
+<system-out><![CDATA[Given Send the Dataset Referance API to server..............................passed
+Then Validate the status code as 201 Created and check the response.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Get Dataset Referance API" time="1.369">
+<system-out><![CDATA[Given Send the get dataset referance API to server..........................passed
+Then Validate status code as 200 OK and check the response..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Catalog API Sanity" name="Remove Dataset Referance API" time="1.313">
+<system-out><![CDATA[Given Send the remove dataset referance API to server.......................passed
+Then Validate status code as 204 No Content and check the response..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Histories Dataset" time="1.174">
+<failure message="expected [201] but found [500]" type="java.lang.AssertionError"><![CDATA[Given Histories dataset API.................................................passed
+Then The streaming interface contract history should be displayed...........failed
+
+StackTrace:
+java.lang.AssertionError: expected [201] but found [500]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at stepDef.HistoriesFindAllHistoryByDatasourceIdAPI.the_streaming_interface_contract_history_should_be_displayed(HistoriesFindAllHistoryByDatasourceIdAPI.java:66)
+	at ✽.The streaming interface contract history should be displayed(file:///C:/Users/gtcg6683/eclipse-workspace/EDH_APIAutomation/src/test/resources/featureFile/EDHInterfaceContract.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Histories Dataset add Contract Version History 4" time="1.261">
+<system-out><![CDATA[Given Histories dataset API add contract version............................passed
+Then The contract version histort should be added...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Update Contract Version History" time="1.182">
+<system-out><![CDATA[Given Interfacecontract update Contract Version.............................passed
+Then History should be updated..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Interface Contract Update Dataset" time="1.152">
+<system-out><![CDATA[Given Interfacecontract update datset.......................................passed
+Then Datset should be updated...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Interface Contract Delete Dataset" time="1.138">
+<system-out><![CDATA[Given Interfacecontract delete datset.......................................passed
+Then Datset should be delete................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Interface Contract Search Dataset" time="1.239">
+<system-out><![CDATA[Given Interfacecontract search datset.......................................passed
+Then Datset should be search................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Interface Contract Upload XLS" time="3.215">
+<system-out><![CDATA[Given Interfacecontract upload the XLS......................................passed
+Then Version should be update...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Interface Contract Upload JSON" time="1.217">
+<system-out><![CDATA[Given Interfacecontract upload the json.....................................passed
+Then JOSN Version should be update..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Interface Contract Upload Multiple JSON" time="1.256">
+<system-out><![CDATA[Given Interfacecontract upload the multiple json............................passed
+Then Multiple JOSN Version should be update.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="DataSource Export Json Contract by Version" time="1.183">
+<system-out><![CDATA[Given Export Json Contract by Version 4 API endpoints.......................passed
+Then Validate the response code for Contract by Version API as 201..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Export Json Contract" time="1.234">
+<system-out><![CDATA[Given Export Json Contract 4 valid endpoints................................passed
+Then Send the API to server and check the response of Json Contract API contains status code as 201.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Export Xls Contract" time="2.636">
+<system-out><![CDATA[Given Export Xls Contract 4 API endpoints are sent to server................passed
+Then Response of Export Xls Contract API contains status code 201...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Export Multiple Json Contract" time="1.145">
+<system-out><![CDATA[Given Export Multiple Json Contract 4 API endpoints are sent................passed
+Then Validate the response of Export Multiple Json Contract API contains status code as 201.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Remove Version API" time="1.214">
+<failure message="expected [200] but found [500]" type="java.lang.AssertionError"><![CDATA[Given Remove Version 4 API endpoints are sent to server.....................passed
+Then Response of Remove Version API contains the status code 200............failed
+
+StackTrace:
+java.lang.AssertionError: expected [200] but found [500]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1294)
+	at interfaceContractStepDefinitions.RemoveVersion.response_of_remove_version_api_contains_the_status_code(RemoveVersion.java:58)
+	at ✽.Response of Remove Version API contains the status code 200(file:///C:/Users/gtcg6683/eclipse-workspace/EDH_APIAutomation/src/test/resources/featureFile/EDHInterfaceContract.feature:58)
+]]></failure>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Mark to Deploy API" time="1.219">
+<failure message="expected [200] but found [500]" type="java.lang.AssertionError"><![CDATA[Given Mark to Deploy 4 API endpoints sent to server.........................passed
+Then Check the response of Mark to Deploy API contains the status code 200..failed
+
+StackTrace:
+java.lang.AssertionError: expected [200] but found [500]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1294)
+	at interfaceContractStepDefinitions.MarkToDeploy.check_the_response_of_mark_to_deploy_api_contains_the_status_code(MarkToDeploy.java:57)
+	at ✽.Check the response of Mark to Deploy API contains the status code 200(file:///C:/Users/gtcg6683/eclipse-workspace/EDH_APIAutomation/src/test/resources/featureFile/EDHInterfaceContract.feature:62)
+]]></failure>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Datasource API" time="1.163">
+<system-out><![CDATA[Given Get Datasource 4 API valid endpoints sent to server...................passed
+Then Fetch the response of Get Datasource API and check the response code as 200.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get All Data Set Version API" time="1.202">
+<system-out><![CDATA[Given Get All Data Set Version 4 API valid endpoints sent to server.........passed
+Then Check the response of All Data Set Version API code as 200 and fetch the response.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Deploy Options API" time="1.195">
+<failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[Given Get Deploy Options 4 API valid endpoints sent to server...............passed
+Then Get the response of Deploy Options API and check the code as 200.......failed
+
+StackTrace:
+java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1294)
+	at interfaceContractStepDefinitions.GetDeployOptions.get_the_response_of_deploy_options_api_and_check_the_code_as(GetDeployOptions.java:58)
+	at ✽.Get the response of Deploy Options API and check the code as 200(file:///C:/Users/gtcg6683/eclipse-workspace/EDH_APIAutomation/src/test/resources/featureFile/EDHInterfaceContract.feature:74)
+]]></failure>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get All Data Set API" time="1.221">
+<system-out><![CDATA[Given Get All Data Set 4 API valid endpoints are sent to server.............passed
+Then Check the response of All Data Set API code as 200.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Product Installed Versions API" time="1.899">
+<system-out><![CDATA[Given Get Product Installed Versions 4 API valid endpoints are sent to server.passed
+Then Validate 200 as the status code and Fetch the response of Product Installed Versions API.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Product Installed Prod Versions API" time="1.252">
+<system-out><![CDATA[Given Get Product Installed Prod Versions 4 API valid endpoints are sent to server.passed
+Then Validate the response code as 200 and Fetch the response of Product Installed Prod Versions API.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Export Template API" time="2.591">
+<system-out><![CDATA[Given Export Template 4 API valid endpoints are sent to server..............passed
+Then Validate the response code as 201 and get the response of Export Template API.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Nb Excel Contract Possible To Export API" time="1.142">
+<system-out><![CDATA[Given Get Nb Excel Contract Possible To Export 4 API valid endpoints are sent to server.passed
+Then Response of Nb Excel Contract API contains 200.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Undeploy All API" time="1.152">
+<failure message="expected [200] but found [400]" type="java.lang.AssertionError"><![CDATA[Given Undeploy All 4 API valid endpoints are sent to server.................passed
+Then Check the status code as 200 for Undeploy All API......................failed
+
+StackTrace:
+java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1294)
+	at interfaceContractStepDefinitions.UndeployAll.check_the_status_code_as_for_undeploy_all_api(UndeployAll.java:64)
+	at ✽.Check the status code as 200 for Undeploy All API(file:///C:/Users/gtcg6683/eclipse-workspace/EDH_APIAutomation/src/test/resources/featureFile/EDHInterfaceContract.feature:98)
+]]></failure>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Log API" time="2.706">
+<system-out><![CDATA[Given Get Log 4 API valid endpoints are sent to server......................passed
+Then Validate the response of Log API contains 200..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Deploy All API" time="1.144">
+<failure message="expected [200] but found [400]" type="java.lang.AssertionError"><![CDATA[Given Deploy All 4 API valid endpoints are sent to server...................passed
+Then Validate the status code as 200 for Deploy All API.....................failed
+
+StackTrace:
+java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1294)
+	at interfaceContractStepDefinitions.DeployAll.validate_the_status_code_as_for_deploy_all_api(DeployAll.java:63)
+	at ✽.Validate the status code as 200 for Deploy All API(file:///C:/Users/gtcg6683/eclipse-workspace/EDH_APIAutomation/src/test/resources/featureFile/EDHInterfaceContract.feature:106)
+]]></failure>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get All Data Sources API" time="1.15">
+<system-out><![CDATA[Given Get All Data Sources 4 API valid endpoints are sent to server.........passed
+Then Status Code contains 200 for All Data Sources API......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Available Contract Versions For Export API" time="1.179">
+<system-out><![CDATA[Given Get Available Contract Versions For Export 4 API valid endpoints are sent to server.passed
+Then Check the status code contains 200 for Available Contract Versions API.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="DataSource Export Json Contract by Version" time="1.177">
+<system-out><![CDATA[Given Export Json Contract by Version 4 API endpoints.......................passed
+Then Validate the response code for Contract by Version API as 201..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Export Json Contract" time="1.167">
+<system-out><![CDATA[Given Export Json Contract 4 valid endpoints................................passed
+Then Send the API to server and check the response of Json Contract API contains status code as 201.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Export Xls Contract" time="2.792">
+<system-out><![CDATA[Given Export Xls Contract 4 API endpoints are sent to server................passed
+Then Response of Export Xls Contract API contains status code 201...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Export Multiple Json Contract" time="1.153">
+<system-out><![CDATA[Given Export Multiple Json Contract 4 API endpoints are sent................passed
+Then Validate the response of Export Multiple Json Contract API contains status code as 201.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Remove Version API" time="1.216">
+<failure message="expected [200] but found [500]" type="java.lang.AssertionError"><![CDATA[Given Remove Version 4 API endpoints are sent to server.....................passed
+Then Response of Remove Version API contains the status code 200............failed
+
+StackTrace:
+java.lang.AssertionError: expected [200] but found [500]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1294)
+	at interfaceContractStepDefinitions.RemoveVersion.response_of_remove_version_api_contains_the_status_code(RemoveVersion.java:58)
+	at ✽.Response of Remove Version API contains the status code 200(file:///C:/Users/gtcg6683/eclipse-workspace/EDH_APIAutomation/src/test/resources/featureFile/InterfaceContract.feature:22)
+]]></failure>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Mark to Deploy API" time="1.145">
+<failure message="expected [200] but found [500]" type="java.lang.AssertionError"><![CDATA[Given Mark to Deploy 4 API endpoints sent to server.........................passed
+Then Check the response of Mark to Deploy API contains the status code 200..failed
+
+StackTrace:
+java.lang.AssertionError: expected [200] but found [500]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1294)
+	at interfaceContractStepDefinitions.MarkToDeploy.check_the_response_of_mark_to_deploy_api_contains_the_status_code(MarkToDeploy.java:57)
+	at ✽.Check the response of Mark to Deploy API contains the status code 200(file:///C:/Users/gtcg6683/eclipse-workspace/EDH_APIAutomation/src/test/resources/featureFile/InterfaceContract.feature:26)
+]]></failure>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Datasource API" time="1.174">
+<system-out><![CDATA[Given Get Datasource 4 API valid endpoints sent to server...................passed
+Then Fetch the response of Get Datasource API and check the response code as 200.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get All Data Set Version API" time="1.177">
+<system-out><![CDATA[Given Get All Data Set Version 4 API valid endpoints sent to server.........passed
+Then Check the response of All Data Set Version API code as 200 and fetch the response.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Deploy Options API" time="1.15">
+<failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[Given Get Deploy Options 4 API valid endpoints sent to server...............passed
+Then Get the response of Deploy Options API and check the code as 200.......failed
+
+StackTrace:
+java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1294)
+	at interfaceContractStepDefinitions.GetDeployOptions.get_the_response_of_deploy_options_api_and_check_the_code_as(GetDeployOptions.java:58)
+	at ✽.Get the response of Deploy Options API and check the code as 200(file:///C:/Users/gtcg6683/eclipse-workspace/EDH_APIAutomation/src/test/resources/featureFile/InterfaceContract.feature:38)
+]]></failure>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get All Data Set API" time="1.208">
+<system-out><![CDATA[Given Get All Data Set 4 API valid endpoints are sent to server.............passed
+Then Check the response of All Data Set API code as 200.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Product Installed Versions API" time="1.639">
+<system-out><![CDATA[Given Get Product Installed Versions 4 API valid endpoints are sent to server.passed
+Then Validate 200 as the status code and Fetch the response of Product Installed Versions API.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Product Installed Prod Versions API" time="1.233">
+<system-out><![CDATA[Given Get Product Installed Prod Versions 4 API valid endpoints are sent to server.passed
+Then Validate the response code as 200 and Fetch the response of Product Installed Prod Versions API.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Export Template API" time="2.768">
+<system-out><![CDATA[Given Export Template 4 API valid endpoints are sent to server..............passed
+Then Validate the response code as 201 and get the response of Export Template API.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Nb Excel Contract Possible To Export API" time="1.196">
+<system-out><![CDATA[Given Get Nb Excel Contract Possible To Export 4 API valid endpoints are sent to server.passed
+Then Response of Nb Excel Contract API contains 200.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Undeploy All API" time="1.148">
+<failure message="expected [200] but found [400]" type="java.lang.AssertionError"><![CDATA[Given Undeploy All 4 API valid endpoints are sent to server.................passed
+Then Check the status code as 200 for Undeploy All API......................failed
+
+StackTrace:
+java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1294)
+	at interfaceContractStepDefinitions.UndeployAll.check_the_status_code_as_for_undeploy_all_api(UndeployAll.java:64)
+	at ✽.Check the status code as 200 for Undeploy All API(file:///C:/Users/gtcg6683/eclipse-workspace/EDH_APIAutomation/src/test/resources/featureFile/InterfaceContract.feature:62)
+]]></failure>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Log API" time="1.567">
+<system-out><![CDATA[Given Get Log 4 API valid endpoints are sent to server......................passed
+Then Validate the response of Log API contains 200..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Deploy All API" time="1.151">
+<failure message="expected [200] but found [400]" type="java.lang.AssertionError"><![CDATA[Given Deploy All 4 API valid endpoints are sent to server...................passed
+Then Validate the status code as 200 for Deploy All API.....................failed
+
+StackTrace:
+java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1294)
+	at interfaceContractStepDefinitions.DeployAll.validate_the_status_code_as_for_deploy_all_api(DeployAll.java:63)
+	at ✽.Validate the status code as 200 for Deploy All API(file:///C:/Users/gtcg6683/eclipse-workspace/EDH_APIAutomation/src/test/resources/featureFile/InterfaceContract.feature:70)
+]]></failure>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get All Data Sources API" time="1.172">
+<system-out><![CDATA[Given Get All Data Sources 4 API valid endpoints are sent to server.........passed
+Then Status Code contains 200 for All Data Sources API......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interface Contract API Sanity" name="Get Available Contract Versions For Export API" time="1.161">
+<system-out><![CDATA[Given Get Available Contract Versions For Export 4 API valid endpoints are sent to server.passed
+Then Check the status code contains 200 for Available Contract Versions API.passed
+]]></system-out>
+</testcase>
+</testsuite>
